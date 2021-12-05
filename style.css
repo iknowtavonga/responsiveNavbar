@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 6em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    
+}
+
+
+li{
+    display: inline;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size: 2em;
+    }
+}
